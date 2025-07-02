@@ -13,7 +13,7 @@ btn.addEventListener("click", function (e) {
   }
 
   let output = clacBMI(weight, height);
-  
+
   if (output.msg === "Healthy") {
     result.style.color = "green";
   } else if (output.msg === "Underweight") {
@@ -31,9 +31,9 @@ function clacBMI(w, h) {
   let msg = "";
   if (bmi < 18.5) {
     msg = "Underweight";
-  } else if (bmi >= 18.5 && bmi <= 24.9) {
+  } else if (bmi >= 18.5 && bmi <= 24.99) {
     msg = "Healthy";
-  } else if (bmi >= 25.0 && bmi <= 29.9) {
+  } else if (bmi >= 25.0 && bmi <= 29.99) {
     msg = "Overweight";
   } else if (bmi >= 30.0) {
     msg = "Obesity";
