@@ -105,3 +105,9 @@ label {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+#suggest {
+  text-align: center;
+  padding: 0 0.5rem 1rem 0.5rem;
+  font-weight: 700;
+}
