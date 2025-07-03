@@ -19,15 +19,22 @@ This tool allows users to input their weight and height, then calculates their B
 
 ## 📦 Features
 
-- Input weight in **kilograms**
-- Input height in **centimeters**
-- Calculates BMI and classifies it into:
-  - Underweight
-  - Healthy
-  - Overweight
-  - Obesity
-- Responsive and clean UI
-- Validates input to prevent empty or invalid values
+✅ Input weight in **kilograms**  
+✅ Input height in **centimeters**  
+✅ Calculates **BMI** with two decimal points  
+✅ **Health classification**:
+
+- Underweight
+- Healthy
+- Overweight
+- Obesity
+
+✅ Personalized suggestions:
+
+- Tells you how much weight to **gain or lose** to reach a BMI of **22** (ideal healthy BMI)  
+  ✅ Colored feedback for better readability  
+  ✅ Input validation with warning messages  
+  ✅ Fully responsive layout
 
 ---
 
@@ -50,5 +57,6 @@ This tool allows users to input their weight and height, then calculates their B
 ## ✅ Example Output
 
 ```txt
-Your BMI is: 23.45 (Healthy)
+Your BMI is: 30.12 (Obesity)
+You need to lose about 15.7 Kg to reach a healthy weight.
 ```
